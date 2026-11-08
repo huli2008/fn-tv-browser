@@ -1,0 +1,13 @@
+# build output
+app/build/
+*.apk.bak
+
+# signing material — never commit
+*.jks
+*.keystore
+debug.keystore
+
+# local scratch
+*.log
+_*.py
+_s5cc3.jsonl
